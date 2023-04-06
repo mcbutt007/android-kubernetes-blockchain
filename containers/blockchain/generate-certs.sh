@@ -13,7 +13,7 @@ PEERS=$CLIPATH/peerOrganizations
 rm -rf $CLIPATH
 $PROJPATH/cryptogen generate --config=$PROJPATH/crypto-config.yaml --output=$CLIPATH
 
-sh generate-cfgtx.sh
+bash generate-cfgtx.sh
 
 rm -rf $PROJPATH/{orderer,shopPeer,fitcoinPeer}/crypto
 mkdir $PROJPATH/{orderer,shopPeer,fitcoinPeer}/crypto
