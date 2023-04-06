@@ -9,11 +9,11 @@ android {
             storePassword 'qwerty'
         }
     }
-    compileSdkVersion 27
+    compileSdkVersion 30
     defaultConfig {
         applicationId "com.amanse.anthony.fitcoinandroid"
         minSdkVersion 21
-        targetSdkVersion 27
+        targetSdkVersion 30
         versionCode 5
         versionName "1.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -27,6 +27,7 @@ android {
     }
     productFlavors {
     }
+    namespace 'com.amanse.anthony.fitcoinandroid'
 }
 
 dependencies {
