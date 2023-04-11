@@ -9,8 +9,8 @@ const config = {
   chaincodeId: 'bcfit',
   chaincodeVersion: '1',
   chaincodePath: 'bcfit',
-  rabbitmq: 'YOUR_RABBITMQ_URL',
-  redisUrl: 'YOUR_REDIS_URL',
+  rabbitmq: 'amqps://nmjzlxse:QPg86WAFutoW7u3z7eoJgaUHjsHNC4sg@armadillo.rmq.cloudamqp.com/nmjzlxse',
+  redisUrl: 'redis://default:nlQHTNUTRwckI33JmEdf9RcxiAd9BONv@redis-15292.c1.ap-southeast-1-1.ec2.cloud.redislabs.com:15292',
   orderer: {
     hostname: 'orderer0',
     url: 'grpc://orderer0:7050',
